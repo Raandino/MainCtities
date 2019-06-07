@@ -27,6 +27,18 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="#ffff" />
 
+
+
+        <EditText
+            android:id="@+id/textBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="prueba"
+            android:inputType="textPersonName"
+            android:textColor="#FFFC"
+            android:textColorHint="#FFFFFF" />
+
         <Button
             android:id="@+id/GoLon"
             android:layout_width="wrap_content"
@@ -36,35 +48,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="15dp"
             android:background="#000000"
-            android:text="London"
+            android:text="GO"
 
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:visibility="visible" />
-
-        <Button
-            android:id="@+id/GoNew"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="95dp"
-            android:layout_marginTop="15dp"
-            android:background="#000000"
-            android:text="New York"
-            android:textAllCaps="false"
-            android:textColor="#FFFFFF"
-            android:textColorHint="#FFFFFF"
-            android:visibility="visible" />
-
-        <Button
-            android:id="@+id/GoMan"
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:layout_marginStart="95dp"
-            android:layout_marginTop="15dp"
-
-            android:background="#000000"
-            android:text="Managua"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"
