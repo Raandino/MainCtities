@@ -16,50 +16,55 @@
 
         <TextView
             android:id="@+id/cities"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
             android:fontFamily="sans-serif-medium"
+            android:gravity="center"
             android:text="CIUDADES"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="#ffff" />
-        
-        <TextView
-            android:id="@+id/tiempo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="#ffffff"
-            android:hint="tiempo"
-            android:textColorHint="#ffffff"/>
-        <TextView
-            android:id="@+id/t_descrip"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="#ffffff"
-            android:hint="descipcion"
-            android:textColorHint="#ffffff"/>
-
-        <TextView
-            android:id="@+id/temperatura"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:textColor="#ffffff"
-            android:hint="temperatura"
-            android:textColorHint="#ffffff"/>
 
         <Button
-            android:id="@+id/button_parse"
-            android:layout_width="117dp"
+            android:id="@+id/GoLon"
+            android:layout_width="wrap_content"
             android:layout_height="32dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="95dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:background="#000000"
+            android:text="London"
+
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/GoNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="95dp"
             android:layout_marginTop="15dp"
             android:background="#000000"
+            android:text="New York"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:visibility="visible" />
 
-            android:text="GO"
+        <Button
+            android:id="@+id/GoMan"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="95dp"
+            android:layout_marginTop="15dp"
+
+            android:background="#000000"
+            android:text="Managua"
             android:textAllCaps="false"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF"

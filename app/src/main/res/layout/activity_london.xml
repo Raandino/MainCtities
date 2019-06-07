@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".London">
+    tools:context=".London"
+    android:background="#000000">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="296dp"
-        android:layout_marginTop="316dp"
-        android:text="LONDON"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/london_icon_layer" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-50dp"
+        tools:layout_editor_absoluteY="-28dp">>
+        <TextView
+            android:id="@+id/cities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="London"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="tiempo"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/t_descrip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="descipcion"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/temperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="temperatura"
+            android:textColor="#ffffff"
+            android:textColorHint="#ffffff"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
