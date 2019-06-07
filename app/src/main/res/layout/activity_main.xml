@@ -42,6 +42,15 @@
             android:hint="descipcion"
             android:textColorHint="#ffffff"/>
 
+        <TextView
+            android:id="@+id/temperatura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:hint="temperatura"
+            android:textColorHint="#ffffff"/>
+
         <Button
             android:id="@+id/button_parse"
             android:layout_width="117dp"
